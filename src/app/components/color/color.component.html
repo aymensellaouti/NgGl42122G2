@@ -1,0 +1,8 @@
+<div [style.backgroundColor]="color">cc</div>
+
+<input (change)="changeColor(inputColor.value)" type="text" #inputColor />
+<input type="color" [(ngModel)]="color" />
+<!-- document.querySelector() -->
+<button (click)="changeColor(defaultColor)" class="btn btn-danger">
+  Reset
+</button>

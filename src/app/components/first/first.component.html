@@ -1,0 +1,12 @@
+<p [hidden]="isHidden">first works!</p>
+<app-second></app-second>
+{{ name }}
+
+<img (click)="showAndHide()" [src]="source" [alt]="alt" />
+<!-- img = querySelector() -->
+<!--
+  Bliases
+    attributs
+  events
+-->
+<input type="text" #monInput (change)="logInput(monInput)">
