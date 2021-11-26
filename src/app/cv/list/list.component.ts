@@ -17,7 +17,7 @@ export class ListComponent implements OnInit {
         'aymen',
         '111',
         'teacher',
-        'rotating_card_profile3.png',
+        '           ',
         39
       ),
       new Cv(
@@ -26,9 +26,18 @@ export class ListComponent implements OnInit {
         'Ramzi',
         '222',
         'engineer',
-        'rotating_card_profile2.png',
+        '',
         22
       ),
+      new Cv(
+        2,
+        'Mohamed',
+        'Salah',
+        '2266',
+        'engineer',
+        'rotating_card_profile2.png',
+        22
+      )
     ];
   }
 

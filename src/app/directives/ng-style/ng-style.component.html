@@ -1,0 +1,22 @@
+<p
+  [ngStyle]="{
+    backgroundColor: color,
+    fontSize: size + 'px'
+  }"
+>
+  ng-style works!
+</p>
+
+<input type="color" [(ngModel)]="color" class="form-control" />
+<input type="number" [(ngModel)]="size" class="form-control" />
+
+<div appHighlight>directive</div>
+<div appHighlight [in]="'lightblue'" [out]="'green'">directive</div>
+
+<div
+  [ngClass]="{
+    lampe: isAllumee
+  }"
+>
+  Lampe
+</div>
